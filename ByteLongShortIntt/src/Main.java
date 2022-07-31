@@ -50,7 +50,7 @@ public class Main {
         System.out.println(myCopyRightChar);
         System.out.println(myUnicodeChar);
 
-        
+
     }
 
 
