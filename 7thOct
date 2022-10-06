@@ -1,0 +1,203 @@
+import java.util.*;
+//Learning JAVA 2.0
+
+public class Main {
+    public static void main(String[] args) {
+//        Scanner scn= new Scanner(System.in);
+//        int n=scn.nextIn();
+//        System.out.println("Hello world!");
+       Scanner scn= new Scanner(System.in);
+//        String name= scn.nextLine();
+//        System.out.println(name);
+
+//        int n= Integer.parseInt(scn.nextLine()); // when we use integer and string
+//        String name= scn.nextLine();
+//        System.out.println(name+n);
+//        int n= scn.nextInt();
+//
+//        if(n==2){
+//            System.out.println("YES");
+//        }
+//        int count=0;
+//        for(int i=2;i<n;i++){
+////            if(n%i!=0) {
+////                System.out.println(i);
+////            }
+//            for(int j=2;j<i;j++){
+//                if(i%j!=0){
+//                    System.out.println(i);
+//                }
+//            }
+//
+//        }
+//
+//        int low= scn.nextInt();
+//        int high= scn.nextInt();
+//        for(int n=low;n<=high;n++){
+//            int count=0;
+//
+//            for(int div=2;div*div<=n;div++) {
+//                if (n % div == 0) {
+//                    count++;
+//                    break;
+//                }
+//            }
+//            if(count==0){
+//                System.out.println(n);
+//            }
+//        }
+
+
+//        if(count==0){
+//            System.out.println("Prime");
+//        }
+//        else{
+//            System.out.println("NonPrime");
+//        }
+//        int count=0;
+//        Scanner scn= new Scanner(System.in);
+//
+//        int n= scn.nextInt();
+//        while(n>0){
+//            count++;
+//            n=n/10;
+//
+//        }
+//        System.out.println(count);
+
+
+//        int n= scn.nextInt();
+//        while(n>0){
+//            int rem=n%10;
+//            System.out.println(rem);
+//            n=n/10;
+//        }
+//        int n= scn.nextInt();
+//        int k= scn.nextInt();
+//
+//        // 1 2 3 4 0 0 5 6
+//        int add=0;
+//        int m=0;
+//        int nadd=0;
+//        while(k>0){
+//            int rem=n%10;
+//            n=n/10;
+//            nadd+= rem* Math.pow(10,m); //
+//            m++;
+//            k--;
+//        }
+////       System.out.println(nadd);
+//        int count=0;
+//        int f=n;
+//        while(n>0){
+//            count++;
+//            n=n/10;
+//        }
+////        System.out.println(count);
+//        double x= nadd * Math.pow(10,count); //
+////        System.out.println(x);
+//        int ans=(int)(x+f);
+//        System.out.println(ans);
+
+
+
+
+    }
+    //printing fibonacci
+//    public static void fibo(String[] args){
+//        // 1 1 1 2 3 5
+//        int a=0;
+//        int b=1;
+//        for(int i=0;i<n;i++){
+//            System.out.println(a);
+//            int c=a+b;
+//            a=b;
+//            b=c;
+//        }
+//
+//    }
+
+    //Count Digits
+//    public static void count(String[] args){
+//        int count=0;
+//        Scanner scn= new Scanner(System.in);
+//
+//        int n= scn.nextInt();
+//        while(n>0){
+//            count++;
+//            n=n/10;
+//
+//        }
+//        System.out.println(count);
+//
+//
+//    }
+//    public static void dig(String[] args){
+//        Scanner scn= new Scanner(System.in);
+//        int n= scn.nextInt();
+//        while(n>0){
+//            int rem=n%10;
+//            System.out.println(rem);
+//            n=n/10;
+//        }
+//
+//
+//
+//    }
+//    public static void reverse(String[] args){
+//        Scanner scn= new Scanner(System.in);
+//        int n= scn.nextInt();
+//        while(n>0){
+//           int rem=n%10;
+//            System.out.println(rem);
+//            n=n/10;
+//        }
+//
+//    }
+//    public static void rotate(String[] args){
+//
+//
+//            Scanner scn = new Scanner(System.in);
+//            int n= scn.nextInt();
+//            int k= scn.nextInt();
+//            int y=0;
+//            int temp=n;
+//            while(temp>0){
+//                y++;
+//                temp=temp/10;
+//            }
+//
+//            if(k<0){
+//                k=k+y;
+//            }
+//
+//            // 1 2 3 4 0 0 5 6
+//            int add=0;
+//            int m=0;
+//            int nadd=0;
+//
+//            while(k>0){
+//                int rem=n%10;
+//                n=n/10;
+//                nadd+= rem* Math.pow(10,m); //
+//                m++;
+//                k--;
+//            }
+////       System.out.println(nadd);
+//            int count=0;
+//            int f=n;
+//            while(n>0){
+//                count++;
+//                n=n/10;
+//            }
+////        System.out.println(count);
+//            double x= nadd * Math.pow(10,count); //
+////        System.out.println(x);
+//            int ans=(int)(x+f);
+//            System.out.println(ans);
+//        }
+   
+    }
+
+
+
